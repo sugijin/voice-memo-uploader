@@ -89,8 +89,8 @@ Deduplication key is **filename** — Voice Memos generates unique timestamped n
 **Location:** `~/Library/LaunchAgents/com.jin.voice-uploader.plist`
 
 **Behaviour:**
-- Runs daily at **2:00 AM**
-- If Mac is asleep at 2 AM, runs on next wake
+- Runs daily at **9:00 PM**
+- If Mac is asleep at 9 PM, runs on next wake
 - `RunAtLoad: true` — also runs once immediately when first loaded (for initial catchup)
 - Stdout/stderr → `~/.jin-pa/voice_uploader.log`
 
